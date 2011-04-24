@@ -23,6 +23,9 @@ sub parse {
 	my ($self, @lines) = @_;
 	my @data_lines;
 	foreach my $line (@lines) {
+		if ($line =~ m/^\s*$/ms || $line =~ m/^\s*#/) {
+			next;
+		}
 		push @data_lines, [$self->parse_line($line)];
 	}
 	return @data_lines;
