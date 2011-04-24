@@ -4,7 +4,10 @@ use Test::More 'tests' => 5;
 
 # Test.
 my $obj = Text::DSV->new;
-my @ret = $obj->parse('1:2:3', '4:5:6');
+my @ret = $obj->parse(<<'END');
+1:2:3
+4:5:6
+END
 is_deeply(
 	\@ret,
 	[
@@ -15,7 +18,11 @@ is_deeply(
 );
 
 # Test.
-@ret = $obj->parse('1:2:3', '', '4:5:6');
+@ret = $obj->parse(<<'END');
+1:2:3
+
+4:5:6
+END
 is_deeply(
 	\@ret,
 	[
@@ -26,7 +33,11 @@ is_deeply(
 );
 
 # Test.
-@ret = $obj->parse('1:2:3', "\t", '4:5:6');
+@ret = $obj->parse(<<"END");
+1:2:3
+\t
+4:5:6
+END
 is_deeply(
 	\@ret,
 	[
@@ -37,7 +48,11 @@ is_deeply(
 );
 
 # Test.
-@ret = $obj->parse('1:2:3', '# Comment.', '4:5:6');
+@ret = $obj->parse(<<'END');
+1:2:3
+# Comment.
+4:5:6
+END
 is_deeply(
 	\@ret,
 	[
@@ -48,7 +63,11 @@ is_deeply(
 );
 
 # Test.
-@ret = $obj->parse('1:2:3', '   # Comment.', '4:5:6');
+@ret = $obj->parse(<<'END');
+1:2:3
+   # Comment.
+4:5:6
+END
 is_deeply(
 	\@ret,
 	[

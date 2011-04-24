@@ -20,9 +20,9 @@ sub new {
 
 # Parse all data.
 sub parse {
-	my ($self, @lines) = @_;
+	my ($self, $data) = @_;
 	my @data_lines;
-	foreach my $line (@lines) {
+	foreach my $line (split m/\n/ms, $data) {
 		if ($line =~ m/^\s*$/ms || $line =~ m/^\s*#/) {
 			next;
 		}
@@ -77,7 +77,7 @@ Text::DSV - DSV parser and serializer.
 =head1 SYNOPSIS
 
  my $obj = Text::DSV->new;
- $obj->parse(@lines);
+ $obj->parse($data);
  $obj->parse_line($line);
  $obj->serialize(@data_lines);
  $obj->serialize_line(@data_line);
@@ -90,7 +90,7 @@ Text::DSV - DSV parser and serializer.
 
  Constructor.
 
-=item * C<parse(@lines)>
+=item * C<parse($data)>
 
  TODO
 
