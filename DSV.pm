@@ -34,8 +34,7 @@ sub parse {
 # Parse one line.
 sub parse_line {
 	my ($self, $line) = @_;
-	# TODO Escape.
-	my @data_line = split m/:/ms, $line;
+	my @data_line = split m/(?<!\\):/ms, $line;
 	foreach my $data (@data_line) {
 		$data =~ s/\\:/:/ms;
 	}
