@@ -1,0 +1,128 @@
+package Text::DSV;
+
+# Pragmas.
+use strict;
+use warnings;
+
+# Version.
+our $VERSION = 0.01;
+
+# Constructor.
+sub new {
+	my ($class, @params) = @_;
+
+	# Create object.
+	my $self = bless {}, $class;
+
+	# Object.
+	return $self;
+}
+
+# Parse all data.
+sub parse {
+	my ($self, @lines) = @_;
+	my @data_lines;
+	foreach my $line (@lines) {
+		push @data_lines, [$self->parse_line($line)];
+	}
+	return @data_lines;
+}
+
+# Parse one line.
+sub parse_line {
+	my ($self, $line) = @_;
+	# TODO Escape.
+	my @data_line = split m/:/ms, $line;
+	foreach my $data (@data_line) {
+		$data =~ s/\\:/:/ms;
+	}
+	return @data_line;
+}
+
+# Serialize all data.
+sub serialize {
+	my ($self, @data_lines) = @_;
+	my $ret;
+	foreach my $data_line_ar (@data_lines) {
+		$ret .= $self->serialize_line(@{$data_line_ar})."\n";
+	}
+	return $ret;
+}
+
+# Serialize one line.
+sub serialize_line {
+	my ($self, @data_line) = @_;
+	my @escape_data = @data_line;
+	foreach my $data (@escape_data) {
+		$data =~ s/:/\\:/ms;
+	}
+	return join ':', @escape_data;
+}
+
+1;
+
+__END__
+
+=pod
+
+=encoding utf8
+
+=head1 NAME
+
+Text::DSV - DSV parser and serializer.
+
+=head1 SYNOPSIS
+
+ my $obj = Text::DSV->new;
+ $obj->parse(@lines);
+ $obj->parse_line($line);
+ $obj->serialize(@data_lines);
+ $obj->serialize_line(@data_line);
+
+=head1 METHODS
+
+=over 4
+
+=item * C<new>
+
+ Constructor.
+
+=item * C<parse(@lines)>
+
+ TODO
+
+=item * C<parse_line($line)>
+
+ TODO
+
+=item * C<serialize(@data_lines)>
+
+ TODO
+
+=item * C<serialize_line(@data_line)>
+
+ TODO
+
+=back
+
+=head1 DEPENDENCIES
+
+ None.
+
+=head1 SEE ALSO
+
+L<Text::CSV(3pm)>,
+
+=head1 AUTHOR
+
+Michal Špaček L<tupinek@gmail.com>
+
+=head1 LICENSE AND COPYRIGHT
+
+BSD license.
+
+=head1 VERSION
+
+0.01
+
+=cut
