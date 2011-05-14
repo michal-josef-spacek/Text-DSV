@@ -1,6 +1,5 @@
 TODO
 ====
-3. Odstranit objektove programovani? Je to tu k nicemu.
 4.
 
 Applied
@@ -10,3 +9,7 @@ OK [20110424] skim
 
 2. Opravit escapovani v parsovani.
 OK [20110424] skim
+
+3. Odstranit objektove programovani? Je to tu k nicemu.
+Budou nejake nastaveni, takze k necemu to je.
+NONE [20110514] skim
