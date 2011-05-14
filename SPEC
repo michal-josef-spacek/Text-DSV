@@ -1,0 +1,8 @@
+Specification
+=============
+Separator: ':'
+Escape sequence: '\'
+Escape characters:
+- '\:' = ':'
+- '\n' = newline
+Skip lines: Blank lines or commented lines from begin.
