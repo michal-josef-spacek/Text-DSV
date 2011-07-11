@@ -4,6 +4,7 @@ use ExtUtils::MakeMaker;
 # Definition.
 WriteMakefile(
 	'AUTHOR' => 'Michal Špaček <skim@cpan.org>',
+	'LICENSE' => 'bsd',
 	'NAME' => 'Text::DSV',
 	'PREREQ_PM' => {
 		'File::Object' => 0,
