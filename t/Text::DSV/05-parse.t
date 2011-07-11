@@ -1,3 +1,7 @@
+# Pragmas.
+use strict;
+use warnings;
+
 # Modules.
 use Text::DSV;
 use Test::More 'tests' => 5;
