@@ -9,7 +9,7 @@ use Test::More 'tests' => 1;
 # Test.
 my $obj = Text::DSV->new;
 my $ret = $obj->serialize([1, 2, 3], [4, 5, 6]);
-is($ret, <<'END');
+is($ret, <<'END', 'Serialize data.');
 1:2:3
 4:5:6
 END
