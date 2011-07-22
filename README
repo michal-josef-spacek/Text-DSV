@@ -32,6 +32,9 @@ METHODS
 SEE ALSO
     Text::CSV,
 
+REPOSITORY
+    <https://github.com/tupinek/Text-DSV>
+
 AUTHOR
     Michal Špaček <mailto:skim@cpan.org>
 

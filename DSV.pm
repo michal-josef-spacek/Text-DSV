@@ -111,6 +111,10 @@ Text::DSV - DSV parser and serializer.
 
 L<Text::CSV>,
 
+=head1 REPOSITORY
+
+L<https://github.com/tupinek/Text-DSV>
+
 =head1 AUTHOR
 
 Michal Špaček L<mailto:skim@cpan.org>
