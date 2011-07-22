@@ -1,0 +1,45 @@
+NAME
+    Text::DSV - DSV parser and serializer.
+
+SYNOPSIS
+     my $obj = Text::DSV->new;
+     $obj->parse($data);
+     $obj->parse_line($line);
+     $obj->serialize(@data_lines);
+     $obj->serialize_line(@data_line);
+
+METHODS
+    *   "new"
+
+         Constructor.
+
+    *   "parse($data)"
+
+         TODO
+
+    *   "parse_line($line)"
+
+         TODO
+
+    *   "serialize(@data_lines)"
+
+         TODO
+
+    *   "serialize_line(@data_line)"
+
+         TODO
+
+SEE ALSO
+    Text::CSV,
+
+AUTHOR
+    Michal Špaček <mailto:skim@cpan.org>
+
+    <http://skim.cz>
+
+LICENSE AND COPYRIGHT
+    BSD license.
+
+VERSION
+    0.01
+
