@@ -37,6 +37,7 @@ sub parse_line {
 	my @data_line = split m/(?<!\\):/ms, $line;
 	foreach my $data (@data_line) {
 		$data =~ s/\\:/:/ms;
+		$data =~ s/\\n/\n/ms;
 	}
 	return @data_line;
 }
@@ -57,6 +58,7 @@ sub serialize_line {
 	my @escape_data = @data_line;
 	foreach my $data (@escape_data) {
 		$data =~ s/:/\\:/ms;
+		$data =~ s/\n/\\n/ms;
 	}
 	return join ':', @escape_data;
 }

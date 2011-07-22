@@ -1,6 +1,5 @@
 TODO
 ====
-4. Implementovat newline.
 5. Pridat priklady.
 6. Pridat neco jako vis()/unvis()?
 7.
@@ -16,3 +15,6 @@ OK [20110424] skim
 3. Odstranit objektove programovani? Je to tu k nicemu.
 Budou nejake nastaveni, takze k necemu to je.
 NONE [20110514] skim
+
+4. Implementovat newline.
+OK [20110722] skim

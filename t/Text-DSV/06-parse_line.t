@@ -4,7 +4,7 @@ use warnings;
 
 # Modules.
 use Text::DSV;
-use Test::More 'tests' => 2;
+use Test::More 'tests' => 3;
 
 # Test.
 my $obj = Text::DSV->new;
@@ -21,4 +21,12 @@ is_deeply(
 	\@ret,
 	[1, 'text:text'],
 	'Parse line data with \':\'.',
+);
+
+# Test.
+@ret = $obj->parse_line('1:text\ntext');
+is_deeply(
+	\@ret,
+	[1, "text\ntext"],
+	'Parse line data with newline.',
 );
