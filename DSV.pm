@@ -109,7 +109,7 @@ Text::DSV - DSV parser and serializer.
 
 =head1 SEE ALSO
 
-L<Text::CSV(3pm)>,
+L<Text::CSV>,
 
 =head1 AUTHOR
 
