@@ -12,12 +12,12 @@ Makefile.PL
 MANIFEST			This list of files
 META.yml
 README
-t/Text::DSV/00-use.t
-t/Text::DSV/01-version.t
-t/Text::DSV/02-pod_coverage.t
-t/Text::DSV/03-pod.t
-t/Text::DSV/04-new.t
-t/Text::DSV/05-parse.t
-t/Text::DSV/06-parse_line.t
-t/Text::DSV/07-serialize.t
-t/Text::DSV/08-serialize_line.t
+t/Text-DSV/00-use.t
+t/Text-DSV/01-version.t
+t/Text-DSV/02-pod_coverage.t
+t/Text-DSV/03-pod.t
+t/Text-DSV/04-new.t
+t/Text-DSV/05-parse.t
+t/Text-DSV/06-parse_line.t
+t/Text-DSV/07-serialize.t
+t/Text-DSV/08-serialize_line.t
