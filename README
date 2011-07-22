@@ -15,19 +15,19 @@ METHODS
 
     *   "parse($data)"
 
-         TODO
+         Parse all data.
 
     *   "parse_line($line)"
 
-         TODO
+         Parse one line.
 
     *   "serialize(@data_lines)"
 
-         TODO
+         Serialize all data.
 
     *   "serialize_line(@data_line)"
 
-         TODO
+         Serialize one line.
 
 SEE ALSO
     Text::CSV,

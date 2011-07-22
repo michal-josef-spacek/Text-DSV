@@ -91,19 +91,19 @@ Text::DSV - DSV parser and serializer.
 
 =item * C<parse($data)>
 
- TODO
+ Parse all data.
 
 =item * C<parse_line($line)>
 
- TODO
+ Parse one line.
 
 =item * C<serialize(@data_lines)>
 
- TODO
+ Serialize all data.
 
 =item * C<serialize_line(@data_line)>
 
- TODO
+ Serialize one line.
 
 =back
 
