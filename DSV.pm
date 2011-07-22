@@ -107,10 +107,6 @@ Text::DSV - DSV parser and serializer.
 
 =back
 
-=head1 DEPENDENCIES
-
- None.
-
 =head1 SEE ALSO
 
 L<Text::CSV(3pm)>,
