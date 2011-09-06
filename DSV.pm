@@ -111,7 +111,7 @@ Text::DSV - DSV parser and serializer.
 
 =head1 SEE ALSO
 
-L<Text::CSV>,
+L<Text::CSV>.
 
 =head1 REPOSITORY
 
