@@ -1,6 +1,5 @@
 TODO
 ====
-5. Pridat priklady.
 6. Pridat neco jako vis()/unvis()?
 7. Test::DSV::XS verze a napojeni na toto.
 8.
@@ -19,3 +18,6 @@ NONE [20110514] skim
 
 4. Implementovat newline.
 OK [20110722] skim
+
+5. Pridat priklady.
+OK [20110906] skim
