@@ -78,34 +78,38 @@ Text::DSV - DSV parser and serializer.
 =head1 SYNOPSIS
 
  my $obj = Text::DSV->new;
- $obj->parse($data);
- $obj->parse_line($line);
- $obj->serialize(@data_lines);
- $obj->serialize_line(@data_line);
+ my @data_lines = $obj->parse($data);
+ my @data_line = $obj->parse_line($line);
+ my $string = $obj->serialize(@data_lines);
+ my $line_string = $obj->serialize_line(@data_line);
 
 =head1 METHODS
 
-=over 4
+=over 8
 
-=item * C<new>
+=item C<new>
 
  Constructor.
 
-=item * C<parse($data)>
+=item C<parse($data)>
 
  Parse all data.
+ Returns array of arrays of data.
 
-=item * C<parse_line($line)>
+=item C<parse_line($line)>
 
  Parse one line.
+ Returns array of data.
 
-=item * C<serialize(@data_lines)>
+=item C<serialize(@data_lines)>
 
  Serialize all data.
+ Returns string.
 
-=item * C<serialize_line(@data_line)>
+=item C<serialize_line(@data_line)>
 
  Serialize one line.
+ Returns line string.
 
 =back
 
