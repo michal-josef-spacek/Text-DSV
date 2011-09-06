@@ -28,4 +28,4 @@ resources:
     type: git
     url: git://github.com/tupinek/Text-DSV
     web: https://github.com/tupinek/Text-DSV
-version: 0.02
+version: 0.03
