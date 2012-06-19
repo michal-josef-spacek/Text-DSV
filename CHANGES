@@ -1,5 +1,6 @@
 0.04
 - Add examples/ directory.
+- Fix Makefile.PL to META 1.4.
 
 0.03 (October 16, 2011)
 - Test::Pod not usable in Perl lesser then 5.8.0. Fix this.
