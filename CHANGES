@@ -1,4 +1,5 @@
 0.06
+- Add Test::NoWarnings to tests.
 
 0.05 (July 17, 2012)
 - Update build system.

@@ -4,7 +4,8 @@ use warnings;
 
 # Modules.
 use Text::DSV;
-use Test::More 'tests' => 5;
+use Test::More 'tests' => 6;
+use Test::NoWarnings;
 
 # Test.
 my $obj = Text::DSV->new;
