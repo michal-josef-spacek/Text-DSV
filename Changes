@@ -1,5 +1,6 @@
 0.06 2013-09-21
  - Add LICENSE file.
+ - Add SIGNATURE file.
  - Add Test::NoWarnings to tests.
  - Rename CHANGES to Changes.
  - Rewrite Changes file to CPAN::Changes::SPEC format.
