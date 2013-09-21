@@ -1,23 +1,24 @@
 0.06
-- Add LICENSE file.
-- Add Test::NoWarnings to tests.
-- Rename CHANGES to Changes.
+ - Add LICENSE file.
+ - Add Test::NoWarnings to tests.
+ - Rename CHANGES to Changes.
+ - Rewrite Changes file to CPAN::Changes::SPEC format.
 
-0.05 (July 17, 2012)
-- Update build system.
-- Update META.yml to right values.
+0.05 2012-07-17
+ - Update build system.
+ - Update META.yml to right values.
 
-0.04 (July 16, 2012)
-- Add examples/ directory.
-- Fix Makefile.PL to META 1.4.
+0.04 2012-07-16
+ - Add examples/ directory.
+ - Fix Makefile.PL to META 1.4.
 
-0.03 (October 16, 2011)
-- Test::Pod not usable in Perl lesser then 5.8.0. Fix this.
+0.03 2011-10-16
+ - Test::Pod not usable in Perl lesser then 5.8.0. Fix this.
 
-0.02 (September 06, 2011)
-- Add test comment.
-- Doc improvement.
-- Add examples to doc.
+0.02 2011-09-06
+ - Add test comment.
+ - Doc improvement.
+ - Add examples to doc.
 
-0.01 (July 22, 2011)
-- First version.
+0.01 2011-07-22
+ - First version.
