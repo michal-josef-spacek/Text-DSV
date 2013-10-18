@@ -1,5 +1,6 @@
 0.07
  - Add new tests for multiple escaped characters in input data.
+ - Fix serializing multiple escaped characters in input data.
 
 0.06 2013-09-21
  - Add LICENSE file.
