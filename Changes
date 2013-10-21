@@ -1,4 +1,4 @@
-0.08
+0.08 2013-10-21
  - Add new tests for multiple escaped characters in parsing.
  - Fix parsing multiple escaped characters.
 
