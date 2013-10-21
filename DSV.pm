@@ -5,7 +5,7 @@ use strict;
 use warnings;
 
 # Version.
-our $VERSION = 0.08;
+our $VERSION = 0.09;
 
 # Constructor.
 sub new {
@@ -191,6 +191,6 @@ BSD license.
 
 =head1 VERSION
 
-0.08
+0.09
 
 =cut
