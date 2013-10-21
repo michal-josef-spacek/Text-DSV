@@ -36,8 +36,8 @@ sub parse_line {
 	my ($self, $line) = @_;
 	my @data_line = split m/(?<!\\):/ms, $line;
 	foreach my $data (@data_line) {
-		$data =~ s/\\:/:/ms;
-		$data =~ s/\\n/\n/ms;
+		$data =~ s/\\:/:/gms;
+		$data =~ s/\\n/\n/gms;
 	}
 	return @data_line;
 }
