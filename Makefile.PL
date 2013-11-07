@@ -10,6 +10,7 @@ abstract 'DSV parser and serializer.';
 author 'Michal Špaček <skim@cpan.org>';
 license 'bsd';
 name 'Text-DSV';
+requires 'perl' => '5.6.0';
 resources 'bugtracker' => 'https://rt.cpan.org/Public/Dist/Display.html'.
 	'?Name=Text-DSV';
 resources 'homepage' => 'https://github.com/tupinek/Text-DSV';

@@ -2,7 +2,6 @@ TODO
 ====
 6. Pridat neco jako vis()/unvis()?
 7. Test::DSV::XS verze a napojeni na toto.
-9. Minimalni Perl verze.
 10.
 
 Applied
@@ -26,3 +25,6 @@ OK [20110906] skim
 8. Proc se neupdatuje META.yml?
 Po upgrade celeho build systemu to funguje.
 OK [20120717] skim
+
+9. Minimalni Perl verze.
+OK [20131107] skim
