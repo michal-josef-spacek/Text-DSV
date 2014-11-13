@@ -7,7 +7,7 @@ use inc::Module::Install;
 
 # Definition.
 abstract 'DSV parser and serializer.';
-author 'Michal Špaček <skim@cpan.org>';
+author 'Michal Spacek <skim@cpan.org>';
 license 'bsd';
 name 'Text-DSV';
 readme_from 'DSV.pm';
