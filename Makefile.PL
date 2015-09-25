@@ -24,7 +24,7 @@ resources 'repository' => 'git://github.com/tupinek/Text-DSV';
 test_requires 'Test::More' => 0;
 test_requires 'Test::NoWarnings' => 0;
 tests_recursive;
-version '0.10';
+version '0.11';
 
 # Run.
 WriteAll();
