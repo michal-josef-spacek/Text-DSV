@@ -173,7 +173,13 @@ Text::DSV - DSV parser and serializer.
 
 =head1 SEE ALSO
 
-L<Text::CSV>.
+=over
+
+=item L<Text::CSV>
+
+comma-separated values manipulator (using XS or PurePerl)
+
+=back
 
 =head1 REPOSITORY
 

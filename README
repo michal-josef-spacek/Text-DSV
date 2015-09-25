@@ -85,7 +85,8 @@ EXAMPLE2
      # 4:5:6
 
 SEE ALSO
-    Text::CSV.
+    Text::CSV
+        comma-separated values manipulator (using XS or PurePerl)
 
 REPOSITORY
     <https://github.com/tupinek/Text-DSV>
