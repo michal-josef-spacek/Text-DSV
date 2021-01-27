@@ -75,6 +75,8 @@ Text::DSV - DSV parser and serializer.
 
 =head1 SYNOPSIS
 
+ use Text::DSV;
+
  my $obj = Text::DSV->new;
  my @data_lines = $obj->parse($data);
  my @data_line = $obj->parse_line($line);
