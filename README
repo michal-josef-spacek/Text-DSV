@@ -29,11 +29,9 @@ METHODS
              Returns line string.
 
 EXAMPLE1
-     # Pragmas.
      use strict;
      use warnings;
 
-     # Modules.
      use Dumpvalue;
      use Text::DSV;
 
@@ -64,11 +62,9 @@ EXAMPLE1
      #       2  6
 
 EXAMPLE2
-     # Pragmas.
      use strict;
      use warnings;
 
-     # Modules.
      use Text::DSV;
 
      # Object.

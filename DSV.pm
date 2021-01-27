@@ -1,10 +1,8 @@
 package Text::DSV;
 
-# Pragmas.
 use strict;
 use warnings;
 
-# Version.
 our $VERSION = 0.11;
 
 # Constructor.
@@ -115,11 +113,9 @@ Text::DSV - DSV parser and serializer.
 
 =head1 EXAMPLE1
 
- # Pragmas.
  use strict;
  use warnings;
 
- # Modules.
  use Dumpvalue;
  use Text::DSV;
 
@@ -151,11 +147,9 @@ Text::DSV - DSV parser and serializer.
 
 =head1 EXAMPLE2
 
- # Pragmas.
  use strict;
  use warnings;
 
- # Modules.
  use Text::DSV;
 
  # Object.
