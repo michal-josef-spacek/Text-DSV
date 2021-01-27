@@ -11,24 +11,40 @@ SYNOPSIS
      my $line_string = $obj->serialize_line(@data_line);
 
 METHODS
-    "new"
-             Constructor.
+  "new"
+     my $obj = Text::DSV->new;
 
-    "parse($data)"
-             Parse all data.
-             Returns array of arrays of data.
+    Constructor.
 
-    "parse_line($line)"
-             Parse one line.
-             Returns array of data.
+    Returns instance of object.
 
-    "serialize(@data_lines)"
-             Serialize all data.
-             Returns string.
+  "parse"
+     my @data_lines = $obj->parse($data);
 
-    "serialize_line(@data_line)"
-             Serialize one line.
-             Returns line string.
+    Parse all data.
+
+    Returns array of arrays of data.
+
+  "parse_line"
+     my @data_line = $obj->parse_line($line);
+
+    Parse one line.
+
+    Returns array of data.
+
+  "serialize"
+     my $string = $obj->serialize(@data_lines);
+
+    Serialize all data.
+
+    Returns string.
+
+  "serialize_line"
+     my $line_string = $obj->serialize_line(@data_line);
+
+    Serialize one line.
+
+    Returns line string.
 
 EXAMPLE1
      use strict;
