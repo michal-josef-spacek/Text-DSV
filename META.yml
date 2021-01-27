@@ -29,4 +29,4 @@ resources:
   homepage: https://github.com/michal-josef-spacek/Text-DSV
   license: http://opensource.org/licenses/bsd-license.php
   repository: git://github.com/michal-josef-spacek/Text-DSV
-version: '0.11'
+version: '0.12'
