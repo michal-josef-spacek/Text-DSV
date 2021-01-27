@@ -18,8 +18,8 @@ recursive_author_tests('xt');
 requires 'perl' => '5.6.0';
 resources 'bugtracker' => 'https://rt.cpan.org/Public/Dist/Display.html'.
 	'?Name=Text-DSV';
-resources 'homepage' => 'https://github.com/tupinek/Text-DSV';
-resources 'repository' => 'git://github.com/tupinek/Text-DSV';
+resources 'homepage' => 'https://github.com/michal-josef-spacek/Text-DSV';
+resources 'repository' => 'git://github.com/michal-josef-spacek/Text-DSV';
 test_requires 'Test::More' => 0;
 test_requires 'Test::NoWarnings' => 0;
 tests_recursive;

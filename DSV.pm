@@ -177,7 +177,7 @@ comma-separated values manipulator (using XS or PurePerl)
 
 =head1 REPOSITORY
 
-L<https://github.com/tupinek/Text-DSV>
+L<https://github.com/michal-josef-spacek/Text-DSV>
 
 =head1 AUTHOR
 

@@ -26,7 +26,7 @@ requires:
   perl: 5.6.0
 resources:
   bugtracker: https://rt.cpan.org/Public/Dist/Display.html?Name=Text-DSV
-  homepage: https://github.com/tupinek/Text-DSV
+  homepage: https://github.com/michal-josef-spacek/Text-DSV
   license: http://opensource.org/licenses/bsd-license.php
-  repository: git://github.com/tupinek/Text-DSV
+  repository: git://github.com/michal-josef-spacek/Text-DSV
 version: '0.11'

@@ -85,7 +85,7 @@ SEE ALSO
         comma-separated values manipulator (using XS or PurePerl)
 
 REPOSITORY
-    <https://github.com/tupinek/Text-DSV>
+    <https://github.com/michal-josef-spacek/Text-DSV>
 
 AUTHOR
     Michal Josef Špaček <mailto:skim@cpan.org>
