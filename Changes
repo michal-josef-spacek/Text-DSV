@@ -1,6 +1,7 @@
 0.11
  - Update Module::Install to 1.19 version.
  - Update author name.
+ - Update copyright years.
 
 0.10 2015-09-25T15:16:58+02:00
  - Add 'readme_from' directive to Makefile.PL.
